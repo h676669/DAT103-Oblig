@@ -1,0 +1,6 @@
+first,middle,last,gender,age
+Ariana,Clarice,Richards,F,44
+Wayne,Elliot,Knight,M,69
+Sam,,Neill,M,76
+Jeffrey,Lynn,Goldblum,M,71
+Laura,,Dern,F,57
