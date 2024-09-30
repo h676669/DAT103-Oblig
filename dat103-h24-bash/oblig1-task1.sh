@@ -3,7 +3,7 @@ mkdir task1-bash
 cp jurassicParkCast.txt task1-bash/cast.txt
 ls task1-bash
 echo '---------------------------------------------------'
-tail -n +2 task1-bash/cast.txt | sort -t, -k4,4n
+tail -n +2 task1-bash/cast.txt | sort -t, -k4
 echo '---------------------------------------------------'
 grep "^L" task1-bash/cast.txt
 echo '---------------------------------------------------'
