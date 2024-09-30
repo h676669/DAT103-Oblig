@@ -5,7 +5,7 @@ ls task1-bash
 echo '---------------------------------------------------'
 tail -n +2 task1-bash/cast.txt | sort -t, -k4
 echo '---------------------------------------------------'
-grep "^L" task1-bash/cast.txt
+grep -E ",L|^L" task1-bash/cast.txt
 echo '---------------------------------------------------'
 awk -F, '$4 ~ /F/' task1-bash/cast.txt | tee task1-bash/women.txt
 echo '---------------------------------------------------'
