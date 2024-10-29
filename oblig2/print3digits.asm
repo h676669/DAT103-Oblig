@@ -7,18 +7,18 @@ global _start
 
 _start:
   mov ecx,foo
-  add ecx,9
+  add ecx,10  ; <-- change this line 
   push ecx
 
   mov ecx,foo
   add ecx,7
-  mov [ecx],byte 48
+  mov [ecx],byte 54 ; <-- change this line 
   mov edx,1
   mov ebx,1
   mov eax,4
   int 80h
 
-  add ecx,2
+  add ecx,0 ; <-- change this line 
   mov edx,1
   mov ebx,1
   mov eax,4
