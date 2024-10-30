@@ -16,8 +16,11 @@ _start:
     add ecx, 10 ; velger 11 karatker i foo
     call printdigit ; skriver ut 9
 
-    mov ecx, bar
-    call printdigit ; skriver ut newline
+    mov edx,1
+    mov ecx,bar ; velger bar
+    mov ebx,1
+    mov eax,4
+    int 80h ; skriver ut en newline karakter
 
     mov eax, 1 ; system call for exit 
     mov ebx, 0 ; exiter med stats success 
