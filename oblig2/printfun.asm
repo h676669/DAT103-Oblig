@@ -7,7 +7,6 @@ section .text
 
 _start:
     mov ecx, foo + 2 ; velger foo
-    ;add ecx, 2 ; velger 3 karakter i foo
     call printdigit ; skiver ut 6
 
     call printdigit ; skriver ut 6 igjen
