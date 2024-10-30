@@ -29,7 +29,7 @@ _start:
 printdigit:
     mov eax, 4 ; system call for sys_write
     mov ebx, 1 ; stdout 
-    mov edx, 1 ; antall bytes som skal skrives 
-    int 80h 
+    mov edx, 1 ; antall bytes som skal skrives
+    int 80h
     ret
 
